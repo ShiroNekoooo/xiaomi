@@ -1,0 +1,56 @@
+/* 公共样式 */
+/* 目的：保证中文属性出现不会乱码 */
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 1226px;
+    margin:0 auto;
+}
+
+
+body {
+    font: normal 400 12x/1.5
+}
+
+a {
+    text-decoration: none;
+    color: #b0b0b0
+}
+
+img{
+    border: 0px;
+   vertical-align: top;
+}
+
+ul li,
+ol li {
+    list-style: none;
+}
+
+em,
+i,
+strong,
+b {
+    font-style: none;
+    font-weight: 400;
+}
+
+.fl_l{
+    float:left;
+}
+.fl_r{
+    float:right;
+}
+.clearFix::after,.clear::before{
+    content:'';
+    display:block;
+    clear:both;
+}
+.mainColor{
+   color: #FF6700
+}
